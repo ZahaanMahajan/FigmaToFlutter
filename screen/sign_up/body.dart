@@ -35,7 +35,7 @@ class Body extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.fromLTRB(
                 26 * fem,
-                25 * fem,
+                50 * fem,
                 29 * fem,
                 25 * fem,
               ),
