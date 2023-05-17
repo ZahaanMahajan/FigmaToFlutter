@@ -1,4 +1,6 @@
 import 'package:figma/screen/camera/camera_screen.dart';
+import 'package:figma/screen/financial_goal/financial_goal_screen.dart';
+import 'package:figma/screen/test_result/test_result_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CameraScreen(),
+      home: FinancialGoalScreen(),
     );
   }
 }
